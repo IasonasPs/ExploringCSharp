@@ -41,6 +41,24 @@ namespace Exploring
             var result = TupleReturn(numSet);
             Console.WriteLine(result);
             #endregion
+
+            #region Value tuples (for further reading)
+            //var point = (x: 1, y: 2);
+
+            //string quadrant = point switch
+            //{
+            //    _ when point is { x: > 0, y: > 0 } => "Quadrant 1",
+            //    //(x, y) when x < 0 && y > 0 => "Quadrant 2",
+            //    //(x, y) when x < 0 && y < 0 => "Quadrant 3",
+            //    //(x, y) when x > 0 && y < 0 => "Quadrant 4",
+            //    _ => "On an axis"
+            //};
+
+            //(int x, int y) Test()
+            //{
+            //    return (1, 2);
+            //} 
+            #endregion
         }
 
         public static void TupleMethod(Tuple<int, int> test)
