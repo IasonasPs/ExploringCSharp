@@ -1,6 +1,6 @@
 ﻿using System.Management;
 
-namespace ClassTypes.ProgramHelpers
+namespace Exploring.ProgramHelpers
 {
     internal static class ListWindowsServices
     {

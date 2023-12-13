@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassTypes._01_User_defined_conversion_operators
+namespace Exploring._01_User_defined_conversion_operators
 {
     public class Convertor
     {
