@@ -14,7 +14,6 @@ namespace Exploring
             ValidateDate(dateTime);
 
             var tuple = (1," ",4);
-
         }
 
         public static void ValidateDate(DateTime dateTime)

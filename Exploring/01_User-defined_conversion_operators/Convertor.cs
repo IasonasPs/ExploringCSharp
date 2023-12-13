@@ -25,9 +25,5 @@ namespace Exploring._01_User_defined_conversion_operators
 
             Console.WriteLine("Wave converted to particle with mass : {0}",parentParticle.mass);
         }
-
-
-
-
     }
 }

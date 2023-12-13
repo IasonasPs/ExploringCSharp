@@ -21,7 +21,11 @@ namespace Exploring
 
             //DiscardVariable.discardsMain(args);
 
-            Convertor.ConvertorMain(args);
+            //Convertor.ConvertorMain(args);
+
+           StaticKeyword.SkMain(args);
+
+
 
             Console.ReadKey();
         }
