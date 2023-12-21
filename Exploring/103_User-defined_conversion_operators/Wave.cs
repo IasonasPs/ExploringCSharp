@@ -17,8 +17,7 @@ namespace Exploring._01_User_defined_conversion_operators
 
         public static explicit operator Particle(Wave wave) 
         {
-            Particle particle = new Particle(wave.Energy / (C * C));
-            return particle;
+            return new Particle(wave.Energy / (C * C));
         }
     }
 }

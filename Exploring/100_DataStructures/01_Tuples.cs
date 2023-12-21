@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exploring
+namespace Exploring._100_DataStructures
 {
     internal class Tuples
     {
@@ -12,7 +12,8 @@ namespace Exploring
         {
             #region basic
             var author = new Tuple<string, string, int, int>("Nikos", "Bita", 55, 2008);
-            //Console.WriteLine("Author {0} {1} is {2} yo and wrote a book in {3}", author.Item1, author.Item2, author.Item3, author.Item4);
+            //Console.WriteLine("Author {0} {1} is {2} yo and wrote a book in {3}",
+            //author.Item1, author.Item2, author.Item3, author.Item4);
             #endregion
 
             #region Tuple.Create

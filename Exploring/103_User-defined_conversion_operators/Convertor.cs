@@ -16,7 +16,9 @@ namespace Exploring._01_User_defined_conversion_operators
             Console.WriteLine("Particle's mass is : {0}",particle.mass);
 
 
-            Wave wave = particle; // use of implicit operator
+            //Wave wave = particle; // use of implicit operator
+
+            Wave wave = new Particle(12);
 
             Console.WriteLine("Particle converted to Wave with energy : {0}", wave.Energy);
             #endregion
