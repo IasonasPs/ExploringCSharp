@@ -1,7 +1,9 @@
 ﻿using Exploring._01_User_defined_conversion_operators;
 using Exploring._100_DataStructures;
+using Exploring._101_Miscellaneous;
 using Exploring._102_Checked_Unchecked;
 using System.Management;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Exploring
 {
@@ -10,7 +12,7 @@ namespace Exploring
         delegate void Del();
         public static void Main(string[] args)
         {
-
+            #region Main method's args parameter :
 #if DEBUG
             args = new string[] { "12", "13", "14" };
 #else
@@ -18,18 +20,11 @@ namespace Exploring
 #endif
 
             //args.ToList().ForEach(x => Console.WriteLine(x));
+            #endregion
 
             //DataStructuresMainClass.StructuresMain(args);
 
-            //DiscardVariable.discardsMain(args);
-
-            Convertor.ConvertorMain(args);
-
-            //StaticKeyword.SkMain(args);
-
-            //UserDefinedConversions.udcMain();
-
-            //Checked_UnChecked.cUMain();
+            MiscellaneousMain.MiscellaneousMainMethod();
 
             Console.ReadKey();
         }
@@ -45,7 +40,7 @@ namespace Exploring
             {
                 var x0 = 4 / intInput;
             }
-            catch (Exception e)
+            catch(Exception e)
             {
 
                 Console.WriteLine(e.Message);
@@ -54,7 +49,7 @@ namespace Exploring
             var x = 4 / intInput;
         }
     }
- 
+
 
 
 
