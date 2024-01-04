@@ -56,7 +56,19 @@ namespace Exploring._101_Miscellaneous
 
             //Dispose_vs_Finalize.DvsFMain();
 
-            Abstract_vs_Interface.Abstract_vs_InterfaceMain();
+            //Abstract_vs_Interface.Abstract_vs_InterfaceMain();
+
+            try
+            {
+                if(true)
+                {
+                    throw new MyCustomException("");
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
 
