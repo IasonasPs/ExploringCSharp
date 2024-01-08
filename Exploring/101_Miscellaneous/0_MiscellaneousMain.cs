@@ -8,7 +8,7 @@ namespace Exploring._101_Miscellaneous
 {
     internal class MiscellaneousMain
     {
-        public static void MiscellaneousMainMethod()
+        public static void MiscellaneousMainMethod(string[] args)
         {
             int y;
             int z = 1;
@@ -58,21 +58,27 @@ namespace Exploring._101_Miscellaneous
 
             //Abstract_vs_Interface.Abstract_vs_InterfaceMain();
 
-            try
-            {
-                if(true)
-                {
-                    throw new MyCustomException("");
-                }
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            #region Custom Exceptions
+            //try
+            //{
+            //    if(true)
+            //    {
+            //        throw new MyCustomException("iasonas", new MyBetterCustomexception());
+            //    }
+            //}
+            //catch(Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //    Console.WriteLine(e.InnerException.Message);
+            //} 
+            #endregion
+
+            ClassIndexer.ClassIndexersMain();
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
-
-
         }
     }
+
+
+
 }

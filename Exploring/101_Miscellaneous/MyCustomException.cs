@@ -8,7 +8,7 @@ namespace Exploring._101_Miscellaneous
 {
     internal class MyCustomException : Exception
     {
-        public MyCustomException()
+        public MyCustomException() : base("I am an exception without argument")
         {
             
         }
@@ -23,6 +23,20 @@ namespace Exploring._101_Miscellaneous
 
 
 
+
+
+    }
+
+    internal class MyBetterCustomexception : Exception
+    {
+        public MyBetterCustomexception() : base("I am a better exception (with no argument) compared to MyCustomException")
+        {
+        }
+
+        public MyBetterCustomexception(string message) : base("I am a better exception compared to MyCustomException")
+        {
+            
+        }
 
 
     }

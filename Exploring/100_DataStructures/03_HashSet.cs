@@ -13,6 +13,7 @@ namespace Exploring._100_DataStructures
         public static void HashSetMain()
         {
 
+            #region MyRegion
             //Declaration
             //HashSet<int> set = new HashSet<int>(2);
 
@@ -35,6 +36,8 @@ namespace Exploring._100_DataStructures
             //{
             //    Console.WriteLine(item);
             //}
+
+            #endregion
 
             var c = Check("abcca");
             var cc = IsPalindrome("abcca");

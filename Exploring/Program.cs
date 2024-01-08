@@ -24,7 +24,7 @@ namespace Exploring
 
             //DataStructuresMainClass.StructuresMain(args);
 
-            MiscellaneousMain.MiscellaneousMainMethod();
+            MiscellaneousMain.MiscellaneousMainMethod(args);
 
             Console.ReadKey();
         }

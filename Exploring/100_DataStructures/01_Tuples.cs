@@ -10,6 +10,9 @@ namespace Exploring._100_DataStructures
     {
         internal static void tuplesMain(string[] args)
         {
+
+
+
             #region basic
             var author = new Tuple<string, string, int, int>("Nikos", "Bita", 55, 2008);
             //Console.WriteLine("Author {0} {1} is {2} yo and wrote a book in {3}",
