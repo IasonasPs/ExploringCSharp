@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,25 +11,27 @@ namespace Exploring._101_Miscellaneous
     {
         public static void ClassIndexersMain()
         {
-            Student student = new Student(12,"Noone");
+            #region Simple Indexer 
+                        //Student student = new Student(12, "Noone");
 
-            student[0] = 14;
-            student[2] = 15;
-            student[3] = 16;
-            student[4] = 17;
-            student[5] = 18;
+                        //student[0] = 14;
+                        //student[2] = 15;
+                        //student[3] = 16;
+                        //student[4] = 17;
+                        //student[5] = 18;
 
-            Console.WriteLine(student[0]);
-            Console.WriteLine(student[1]);
+                        //Console.WriteLine(student[0]);
+                        //Console.WriteLine(student[1]);
 
-            int count = 0;
-            for (int i = 2; i < 14; i++) 
-            {
-                Console.WriteLine("  "+student[i]);
-                count++;
-            }
+                        //int count = 0;
+                        //for (int i = 2; i < 14; i++)
+                        //{
+                        //    Console.WriteLine("  " + student[i]);
+                        //    count++;
+                        //}
 
-            Console.WriteLine("Count = {0}",count);
+                        //Console.WriteLine("Count = {0}", count); 
+            #endregion
         }
     }
 
@@ -43,20 +46,19 @@ namespace Exploring._101_Miscellaneous
             Id = id;
             Name = name;
 
-            ints = Enumerable.Repeat(0,12).ToArray();
+            ints = Enumerable.Repeat(0, 12).ToArray();
         }
 
         //Indexer implementation
         public object this[int index]
         {
-
             get
             {
                 if (index == 0)
                 {
                     return Id;
                 }
-                else if (index == 1) 
+                else if (index == 1)
                 {
                     return Name;
                 }
@@ -65,11 +67,11 @@ namespace Exploring._101_Miscellaneous
                     return ints[index - 2];
                 }
             }
-            set 
+            set
             {
                 if (index == 0)
                 {
-                    Id = value as int? ;
+                    Id = value as int?;
                 }
                 else if (index == 1)
                 {
@@ -83,7 +85,32 @@ namespace Exploring._101_Miscellaneous
         }
     }
 
+    public class Space
+    {
+        private string Name { get; set; }
+
+        private int Dimensions { get; set; }
 
 
 
+        //public object this[int x, int y, int z]
+        //{
+        //    get { }
+        //    set 
+        //    {
+        //        if (x==0 || y==0 || z==0)
+        //        {
+        //            Dimensions = 2;
+
+        //        }
+
+
+        //    }
+        //}
+
+
+
+
+
+    }
 }

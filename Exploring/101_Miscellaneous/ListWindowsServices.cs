@@ -27,5 +27,39 @@ namespace Exploring._101_ProgramHelpers
                 }
             }
         }
+
+        internal static void ListDevices()
+        {
+            ManagementObjectSearcher mSearcher = new ManagementObjectSearcher("root\\cimv2" , "Select * from Win32_PointingDevice");
+            ManagementObjectSearcher kSearcher = new ManagementObjectSearcher("root\\cimv2" , "Select * from Win32_KeyBoard");
+            ManagementObjectSearcher pSearcher = new ManagementObjectSearcher("root\\cimv2" , "Select * from Win32_PnPEntity");
+
+            ManagementObjectCollection pnp = pSearcher.Get();
+
+            
+
+
+
+            foreach (var device in pnp)
+            {
+                string caption = (string)device.GetPropertyValue("PNPClass");
+                var pnpClass = device.Properties["PNPClass"].Value;
+
+                if (caption == "Image")
+                {
+
+                }
+
+
+
+                Console.WriteLine(caption);
+            }
+
+
+
+
+
+        }
+
     }
 }

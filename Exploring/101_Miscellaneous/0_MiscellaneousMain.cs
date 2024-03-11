@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exploring._101_ProgramHelpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,15 +11,16 @@ namespace Exploring._101_Miscellaneous
     {
         public static void MiscellaneousMainMethod(string[] args)
         {
-            int y;
-            int z = 1;
+         
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
 
             #region Out_and_Ref
+            //int y;
             //Out_and_Ref.Square(5, out y);
             //Console.WriteLine("here y is the square of the first parameter and need not be initialized : {0}", y);
 
+            //int z = 2 ;
             //Out_and_Ref.Square2(5, ref z);
             //Console.WriteLine("here z is changed within the method and needs to be initialized : {0}", z);
 
@@ -26,7 +28,8 @@ namespace Exploring._101_Miscellaneous
             //Console.WriteLine("Result is {0} and y is {1}", result3, y);
 
             //var result4 = Out_and_Ref.Square4(5, ref z);
-            //Console.WriteLine("Result is {0} and z is {1}", result3, z); 
+            //Console.WriteLine("Result is {0} and z is {1}", result3, z);
+
             #endregion
 
             #region Memory Allocated
@@ -73,7 +76,16 @@ namespace Exploring._101_Miscellaneous
             //} 
             #endregion
 
-            ClassIndexer.ClassIndexersMain();
+            ////ClassIndexer.ClassIndexersMain();
+
+            ////BitWiseOperators.BitWiseOperatorsMain();
+
+            ////DisposeCheck.DisposeCheckMain();
+
+            ////Test.testMain();
+            //ListWindowsServices.ListDevices();
+
+            ConcurretnBagToList.bagToListMain();
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
         }
