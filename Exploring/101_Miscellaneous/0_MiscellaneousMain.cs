@@ -85,7 +85,8 @@ namespace Exploring._101_Miscellaneous
             ////Test.testMain();
             //ListWindowsServices.ListDevices();
 
-            ConcurretnBagAndList.bagToListMain();
+            //ConcurretnBagAndList.bagToListMain();
+            ParallelForeach.parallelMain();
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
         }
