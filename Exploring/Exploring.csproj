@@ -26,4 +26,12 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\iasonas.psomadakis\OneDrive - PeopleCert Network\Documents\repos\Exploring\Exploring\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\iasonas.psomadakis\OneDrive - PeopleCert Network\Documents\repos\Exploring\Exploring\.editorconfig" />
+  </ItemGroup>
+
 </Project>

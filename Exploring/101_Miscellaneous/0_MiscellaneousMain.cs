@@ -1,5 +1,6 @@
 ﻿using Exploring._101_ProgramHelpers;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -86,7 +87,12 @@ namespace Exploring._101_Miscellaneous
             //ListWindowsServices.ListDevices();
 
             //ConcurretnBagAndList.bagToListMain();
-            ParallelForeach.parallelMain();
+            //ParallelForeach.parallelMain();
+
+            //InterfaceProperties.InterfacePropertiesMain();
+
+            IEnumProgram.iEnumMain();
+
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
         }
