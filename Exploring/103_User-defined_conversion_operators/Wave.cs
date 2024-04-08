@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exploring._01_User_defined_conversion_operators
+﻿namespace Exploring._01_User_defined_conversion_operators
 {
     public class Wave
     {

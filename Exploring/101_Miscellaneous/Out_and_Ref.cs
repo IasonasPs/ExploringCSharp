@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Channels;
-using System.Threading.Tasks;
-
-namespace Exploring._101_Miscellaneous
+﻿namespace Exploring._101_Miscellaneous
 {
     internal class Out_and_Ref
     {

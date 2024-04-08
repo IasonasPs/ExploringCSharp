@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exploring._102_Checked_Unchecked
+﻿namespace Exploring._102_Checked_Unchecked
 {
     public class Checked_UnChecked
     {

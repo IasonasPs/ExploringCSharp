@@ -1,12 +1,4 @@
-﻿using Exploring._101_ProgramHelpers;
-using System;
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exploring._101_Miscellaneous
+﻿namespace Exploring._101_Miscellaneous
 {
     internal class MiscellaneousMain
     {
@@ -91,7 +83,9 @@ namespace Exploring._101_Miscellaneous
 
             //InterfaceProperties.InterfacePropertiesMain();
 
-            IEnumProgram.iEnumMain();
+            //IEnumProgram.iEnumMain();
+
+            InterfaceInheritance.InterfaceInheritanceMain();
 
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
