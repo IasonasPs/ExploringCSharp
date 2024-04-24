@@ -85,7 +85,11 @@
 
             //IEnumProgram.iEnumMain();
 
-            InterfaceInheritance.InterfaceInheritanceMain();
+            //InterfaceInheritance.InterfaceInheritanceMain();
+
+            //Yield.YieldMain();
+
+            SelectMany.ManyMain();
 
 
             Console.WriteLine("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");

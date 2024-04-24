@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Console_.NetGenericHost": {
+      "commandName": "Project",
+      "commandLineArgs": "\r\n"
+    }
+  }
+}
